@@ -1,0 +1,28 @@
+.campos{
+  // background: red;
+  display: flex;
+  flex-direction: column;
+
+ 
+  .defaultDiv{
+    //padding: 1rem;
+  }
+
+  label{
+    display: block;
+  }
+
+  .defaultDiv input[type="text"]{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    outline: none;
+    border: 0;
+  }
+
+  input:focus{
+    border: 1px solid #000;
+  }
+ 
+}
